@@ -41,7 +41,7 @@ export default function PaginaRelacion() {
   const [seccionActual, setSeccionActual] = useState<'apreciaciones' | 'recuerdos' | 'mensajeFinal'>('apreciaciones');
   const [mensajeFinalVisible, setMensajeFinalVisible] = useState(false);
   const [animatedItems, setAnimatedItems] = useState<number[]>([]);
-  const [respuestaVisible, setRespuestaVisible] = useState(false);
+  //const [respuestaVisible, setRespuestaVisible] = useState(false);
 
   const apreciaciones = [
     "Eres muy tierna conmigo.",
