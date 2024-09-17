@@ -56,6 +56,7 @@ export default function PaginaRelacion() {
     '/IMG-20231209-WA0016.jpg',
     '/IMG-20231229-WA0036.jpg',
     '/IMG-20240104-WA0020.jpg',
+    'nueva.jpg',
   ];
 
   useEffect(() => {
