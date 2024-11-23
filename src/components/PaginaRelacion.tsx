@@ -3,6 +3,7 @@ import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
 import { Heart, ArrowRight } from 'lucide-react';
 import Slider from 'react-slick';
+import Nav from './Navbar';
 
 const HeartIcon = ({ className = "", ...props }) => (
   <svg
@@ -86,7 +87,9 @@ export default function PaginaRelacion() {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-pink-100 to-purple-100 p-4 md:p-8 flex flex-col items-center">
+      
       <h1 className="text-2xl md:text-4xl font-bold mb-6 md:mb-8 text-center text-purple-800">Nuestra Historia de Amor</h1>
+      <Nav />
 
       {seccionActual === 'apreciaciones' && (
         <Card className="w-full max-w-md md:max-w-2xl bg-white shadow-lg">
